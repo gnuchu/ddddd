@@ -1,0 +1,12 @@
+endpoints:
+  weather:
+    - url: https://api.openweathermap.org/data/2.5/weather
+    - method: GET
+    - auth: BASIC
+    - title: "Current Weather"
+  crypto:
+    - url: https://api.coinigy.com/api/v1/ticker
+    - method: POST
+    - auth: HEADERS
+    - title: "Crypto"
+    
